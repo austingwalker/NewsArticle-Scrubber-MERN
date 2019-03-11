@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Nav.css";
 
 const Nav = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg   navBar">
     <Link className="navbar-brand" to="/">
       MERN Stack
     </Link>

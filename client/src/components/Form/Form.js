@@ -1,4 +1,5 @@
 import React from "react";
+import "./Form.css"
 
 const Form = props => (
   <form>
@@ -21,7 +22,7 @@ const Form = props => (
       <button
         onClick={props.handleFormSubmit}
         type="submit"
-        className="btn btn-lg btn-danger"
+        className="btn btn-lg"
       >
         Submit
       </button>

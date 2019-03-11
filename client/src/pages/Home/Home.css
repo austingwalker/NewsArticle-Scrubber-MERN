@@ -1,0 +1,15 @@
+.jumbo {
+    margin-top: 50px;
+    margin-bottom: 5px;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.jumboCol {
+    margin-top: 50px;
+}
+
+hr {
+    border-color: white;
+}

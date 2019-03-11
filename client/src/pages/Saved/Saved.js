@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-import Jumbotron from "../../components/Jumbotron";
+import { Jumbotron } from 'reactstrap';
 import Card from "../../components/Card";
 import ArticleSave from "../../components/ArticleSave";
 import Footer from "../../components/Footer";
 import API from "../../utils/API";
 import { Col, Row, Container } from "../../components/Grid";
 import { List } from "../../components/List";
+import "./Saved.css"
 
 class Saved extends Component {
   state = {
@@ -38,12 +39,13 @@ class Saved extends Component {
       <Container>
         <Row>
           <Col size="md-12">
-            <Jumbotron>
+            <Jumbotron className="jumbo">
               <h1 className="text-center">
-                <strong>(ReactJS) New York Times Article Scrubber</strong>
+                <strong>NewsAPI.org Article Scrubber</strong>
               </h1>
+              <hr/>
               <h2 className="text-center">
-                Search for and save articles of interest.
+                Saved Articles.
               </h2>
             </Jumbotron>
           </Col>

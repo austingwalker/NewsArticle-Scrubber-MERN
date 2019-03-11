@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Jumbotron from "../../components/Jumbotron";
+
+import { Jumbotron } from 'reactstrap';
 import Card from "../../components/Card";
 import Form from "../../components/Form";
 import Article from "../../components/Article";
@@ -7,6 +8,7 @@ import Footer from "../../components/Footer";
 import API from "../../utils/API";
 import { Col, Row, Container } from "../../components/Grid";
 import { List } from "../../components/List";
+import "./Home.css"
 
 class Home extends Component {
   state = {
@@ -55,13 +57,14 @@ class Home extends Component {
 
   render() {
     return (
-      <Container>
-        <Row>
+      <Container >
+        <Row >
           <Col size="md-12">
-            <Jumbotron>
+            <Jumbotron className="jumbo">
               <h1 className="text-center">
                 <strong>NewsAPI.org Article Scrubber</strong>
               </h1>
+              <hr/>
               <h2 className="text-center">
                 Search for and save articles of interest.
               </h2>

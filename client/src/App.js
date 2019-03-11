@@ -10,7 +10,7 @@ import Nav from "./components/Nav";
 const App = () => (
       <Router>
         <div>
-          <Nav />
+          <Nav className="navBar"/>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/saved" component={Saved} />
